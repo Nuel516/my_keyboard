@@ -1,0 +1,591 @@
+/* body {
+    overflow: hidden;
+} */
+.keybd {
+    width: 100%;
+    height: 130vh;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: rgb(133, 127, 127);
+    margin-left: -5px;
+    margin-right: 0px;
+}
+.kbd {
+    width: 1327px;
+    height: 80vh;
+    border: 5px solid rgb(10, 10, 10);
+    background-color: rgb(19, 18, 18);
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: double;
+}
+.keyb {
+    width: 98%;
+    height: 60vh;
+    border: 4px solid rgb(0, 0, 0);
+    position: relative;
+    top: 100px;
+    bottom: 600px;
+    left: 5px;
+    border-radius: 25px;
+    background-color:rgb(12, 12, 12);
+    border-style: inset;
+}
+.function button:nth-child(1) {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    padding-right: 40px;
+    padding-bottom: 32px;
+    width: 85px;
+    height: 47px;
+    border-top-left-radius: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+}
+.function2 {
+    position: relative;
+    left: 10px;
+}
+.function3 {
+    position: relative;
+    left: 20px;
+}
+.insdel {
+    position: relative;
+    left: 30px;
+}
+.extra {
+    position: relative;
+    left: 10px;
+}
+.extra2 {
+    position: relative;
+    left: 10px;
+}
+.extra3 {
+    position: relative;
+    left: 10px;
+}
+.extra4 {
+    position: relative;
+    left: 10px;
+}
+.extra5 {
+    position: relative;
+    left: 10px;
+}
+.extra6 {
+    position: relative;
+    left: 10px;
+}
+.arrow {
+    position: relative;
+    left: 10px;
+}
+.function button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 65px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.function2 button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 65px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.function3 button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 65px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.insert {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    padding-bottom: 32px;
+    width: 60px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: center;
+}
+.delete {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    padding-bottom: 32px;
+    width: 75px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: center;
+}
+.numrow {
+    position: absolute;
+}
+.numrow button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 54px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+}
+
+.numrow button.backspace {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    padding-bottom: 32px;
+    width: 130px;
+    height: 70px;
+    position: relative;
+    top: 54px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+}
+.alpha {
+    position: absolute;
+}
+.alpha button.tab {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 125px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.tab1 {
+    text-align: right;
+    position: relative;
+    padding-left: 40px;
+}
+.alpha button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 125px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha button.slh {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 100px;
+    position: relative;
+    top: 125px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    margin-right: 4px;
+}
+.alpha2 {
+    position: absolute;
+}
+.alpha2 button.cpslock {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 116px;
+    height: 70px;
+    position: relative;
+    top: 197px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    /* margin-right: 4px; */
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha2 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 197px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha2 button.enter {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 154px;
+    height: 70px;
+    position: relative;
+    top: 197px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    /* margin-right: 4px; */
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha3 {
+    position: absolute;
+}
+.alpha3 button.shift1 {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    top: 269px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    margin-right: 4px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha3 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 269px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.alpha3 button.shift2 {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 186px;
+    height: 70px;
+    position: relative;
+    top: 269px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    margin-right: 4px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.lastrow {
+    position: absolute;
+}
+.lastrow button.ctrl1 {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    border-bottom-left-radius: 20px;
+    width: 75px;
+    height: 70px;
+    position: relative;
+    top: 341px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    margin-right: 4px;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.lastrow button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 341px;
+    left: 4px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.lastrow button.spacebar {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 354px;
+    height: 70px;
+    position: relative;
+    top: 341px;
+    left: 5px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.lastrow button.win {
+    background-image: url("../win.png");
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.extra button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 47px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.extra button.pgdn {
+    border-top-right-radius: 20px;
+}
+.extra2 button{
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: -16px;
+    left: 1045px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.extra3 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 57px;
+    left: 1105px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: center;
+    padding-bottom: 32px;
+}
+.extra3 button.plus {
+    left: 1105px;
+    text-align: center;
+    height: 140px;
+}
+.extra3 button.seven {
+    left: -195px;
+    top: 125px;
+}
+.extra4 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 127px;
+    left: 865px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: center;
+    padding-bottom: 32px;
+}
+.extra5 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 199px;
+    left: 685px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: center;
+    padding-bottom: 32px;
+}
+.extra5 button.enter2 {
+    height: 140px;
+    border-bottom-right-radius: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.extra6 button {
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 270px;
+    left: 445px;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    float: left;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.extra6 button.zero {
+    width: 120px;
+}
+.arrow button {
+    height: 33px;
+    width: 59px;
+    left: 6px;
+    border: 5px solid rgb(19, 18, 18);
+    border-style: outset;
+    position: relative;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    top: 308px;
+}
+.arrow button.uparrow {
+    top: 273px;
+    left: 132px;
+}
+.arrow button.leftarrow {
+    left: -55px;
+}
+.arrow button.downarrow {
+    left: 70px;
+}
+.touchpad {
+    height: 250px;
+    width: 300px;
+    left: 400px;
+    border: 10px solid rgb(168, 160, 160);
+    border-radius: 30px;
+    border-style: inset;
+    position: relative;
+    top: 55px;
+    background-color: rgb(133, 127, 127);
+}
+.touchpad button {
+    height: 40px;
+    width: 140px;
+    left: 7px;
+    border: 5px solid rgb(168, 160, 160);
+    border-style: outset;
+    position: relative;
+    background-color: rgb(137, 127, 127);
+    color: aliceblue;
+    top: 200px;
+    margin: auto;
+}
+.touchpad button:nth-child(1) {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.touchpad button:nth-child(2) {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.keyb div button:hover {
+    background-color: grey;
+    color: rgb(209, 245, 7)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
